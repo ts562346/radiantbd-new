@@ -1,0 +1,100 @@
+.footer {
+  background: #0f3d22;
+  color: #cde8d6;
+  padding-top: 3rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 2.5rem;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #5fcf89;
+  letter-spacing: 3px;
+  margin: 0 0 0.2rem;
+}
+
+.footer-tagline {
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #8ecfa6;
+  margin: 0 0 1rem;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #a8d4b8;
+  margin: 0;
+}
+
+.footer-links h4,
+.footer-services h4,
+.footer-contact h4 {
+  color: #5fcf89;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-links ul,
+.footer-services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li,
+.footer-services ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #a8d4b8;
+}
+
+.footer-links ul li a {
+  color: #a8d4b8;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links ul li a:hover {
+  color: #5fcf89;
+}
+
+.footer-contact p {
+  font-size: 0.9rem;
+  color: #a8d4b8;
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1e5e35;
+  text-align: center;
+  padding: 1.2rem 1.5rem;
+  font-size: 0.8rem;
+  color: #6aaa82;
+}
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

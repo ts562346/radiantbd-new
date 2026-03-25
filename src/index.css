@@ -1,0 +1,38 @@
+:root {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #222;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}

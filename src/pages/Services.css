@@ -1,0 +1,90 @@
+.section {
+  padding: 4.5rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section.bg-light {
+  max-width: 100%;
+  background: #f5faf7;
+  padding: 4.5rem 1.5rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h2 {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  font-weight: 800;
+  color: #1a3a28;
+  margin-bottom: 0.6rem;
+}
+
+.section-header p {
+  color: #666;
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.services-grid-wide {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Equipment */
+.equipment-section {
+  text-align: center;
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.equipment-item {
+  background: #f0faf4;
+  border: 1px solid #b8dfc8;
+  border-radius: 8px;
+  padding: 0.85rem 1.2rem;
+  font-size: 0.9rem;
+  color: #1a3a28;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.equip-check {
+  color: #1a6b3a;
+  font-weight: 700;
+}
+
+/* Guarantee Strip */
+.guarantee-strip {
+  background: linear-gradient(135deg, #1a6b3a, #0d4a23);
+  color: white;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.guarantee-strip h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.guarantee-strip p {
+  font-size: 1.1rem;
+  opacity: 0.92;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
