@@ -1,6 +1,6 @@
 .footer {
-  background: #0f3d22;
-  color: #cde8d6;
+  background: #3a0808;
+  color: #e8d0d0;
   padding-top: 3rem;
 }
 
@@ -16,7 +16,7 @@
 .footer-logo {
   font-size: 1.8rem;
   font-weight: 800;
-  color: #5fcf89;
+  color: #E88A8A;
   letter-spacing: 3px;
   margin: 0 0 0.2rem;
 }
@@ -25,21 +25,21 @@
   font-size: 0.75rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #8ecfa6;
+  color: #d4a0a0;
   margin: 0 0 1rem;
 }
 
 .footer-desc {
   font-size: 0.9rem;
   line-height: 1.7;
-  color: #a8d4b8;
+  color: #d4b0b0;
   margin: 0;
 }
 
 .footer-links h4,
 .footer-services h4,
 .footer-contact h4 {
-  color: #5fcf89;
+  color: #E88A8A;
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -58,32 +58,32 @@
 .footer-services ul li {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
-  color: #a8d4b8;
+  color: #d4b0b0;
 }
 
 .footer-links ul li a {
-  color: #a8d4b8;
+  color: #d4b0b0;
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .footer-links ul li a:hover {
-  color: #5fcf89;
+  color: #E88A8A;
 }
 
 .footer-contact p {
   font-size: 0.9rem;
-  color: #a8d4b8;
+  color: #d4b0b0;
   line-height: 1.7;
   margin-bottom: 0.6rem;
 }
 
 .footer-bottom {
-  border-top: 1px solid #1e5e35;
+  border-top: 1px solid #5a1010;
   text-align: center;
   padding: 1.2rem 1.5rem;
   font-size: 0.8rem;
-  color: #6aaa82;
+  color: #c48080;
 }
 
 @media (max-width: 900px) {

@@ -9,8 +9,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={() => setMenuOpen(false)}>
-          <span className="logo-radiant">RADIANT</span>
-          <span className="logo-sub">Cleaning &amp; Pest Control</span>
+          <img src="/logo.jpg" alt="Radiant Cleaning & Pest Control" className="navbar-logo-img" />
         </Link>
 
         <button

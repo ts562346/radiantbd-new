@@ -6,7 +6,7 @@
 
 .section.bg-light {
   max-width: 100%;
-  background: #f5faf7;
+  background: #fdf5f5;
   padding: 4.5rem 1.5rem;
 }
 
@@ -18,7 +18,7 @@
 .section-header h2 {
   font-size: clamp(1.7rem, 3vw, 2.3rem);
   font-weight: 800;
-  color: #1a3a28;
+  color: #3a1010;
   margin-bottom: 0.6rem;
 }
 
@@ -50,12 +50,12 @@
 }
 
 .equipment-item {
-  background: #f0faf4;
-  border: 1px solid #b8dfc8;
+  background: #fdf5f5;
+  border: 1px solid #e8b8b8;
   border-radius: 8px;
   padding: 0.85rem 1.2rem;
   font-size: 0.9rem;
-  color: #1a3a28;
+  color: #3a1010;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -63,13 +63,13 @@
 }
 
 .equip-check {
-  color: #1a6b3a;
+  color: #8B1A1A;
   font-weight: 700;
 }
 
 /* Guarantee Strip */
 .guarantee-strip {
-  background: linear-gradient(135deg, #1a6b3a, #0d4a23);
+  background: linear-gradient(135deg, #8B1A1A, #5C0E0E);
   color: white;
   text-align: center;
   padding: 4rem 1.5rem;

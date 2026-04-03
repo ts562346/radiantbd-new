@@ -13,7 +13,7 @@
 .about-text h2 {
   font-size: 2rem;
   font-weight: 800;
-  color: #1a3a28;
+  color: #3a1010;
   margin-bottom: 1.25rem;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .about-stats-box {
-  background: linear-gradient(135deg, #1a6b3a, #2d9e5f);
+  background: linear-gradient(135deg, #8B1A1A, #B32020);
   border-radius: 16px;
   padding: 2rem;
   display: grid;
@@ -42,7 +42,7 @@
   display: block;
   font-size: 2.2rem;
   font-weight: 800;
-  color: #a8f5c4;
+  color: #F5C4C4;
 }
 
 .about-stat span {
@@ -81,18 +81,18 @@
   overflow: hidden;
   text-align: center;
   transition: transform 0.25s, box-shadow 0.25s;
-  border-top: 4px solid #1a6b3a;
+  border-top: 4px solid #8B1A1A;
 }
 
 .team-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 32px rgba(26, 107, 58, 0.14);
+  box-shadow: 0 12px 32px rgba(139, 26, 26, 0.14);
 }
 
 .team-avatar {
   width: 100%;
   aspect-ratio: 1 / 1;
-  background: linear-gradient(135deg, #1a6b3a 0%, #2d9e5f 100%);
+  background: linear-gradient(135deg, #8B1A1A 0%, #B32020 100%);
   color: white;
   font-size: 3rem;
   font-weight: 800;
@@ -109,7 +109,7 @@
 .team-info h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: #1a3a28;
+  color: #3a1010;
   margin: 0 0 0.35rem;
 }
 
@@ -118,7 +118,7 @@
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.8px;
-  color: #1a6b3a;
+  color: #8B1A1A;
   font-weight: 600;
   margin-bottom: 0.75rem;
 }
@@ -128,21 +128,21 @@
   font-size: 0.88rem;
   color: #555;
   text-decoration: none;
-  background: #f0faf4;
+  background: #fdf5f5;
   padding: 0.35rem 0.85rem;
   border-radius: 20px;
   transition: background 0.2s, color 0.2s;
 }
 
 .team-phone:hover {
-  background: #1a6b3a;
+  background: #8B1A1A;
   color: white;
 }
 
 
 .address-strip {
-  background: #1a3a28;
-  color: #a8d4b8;
+  background: #3a1010;
+  color: #d4b0b0;
   text-align: center;
   padding: 2rem 1.5rem;
 }
@@ -161,7 +161,7 @@
 
 .section.bg-light {
   max-width: 100%;
-  background: #f5faf7;
+  background: #fdf5f5;
   padding: 4.5rem 1.5rem;
 }
 
@@ -173,7 +173,7 @@
 .section-header h2 {
   font-size: clamp(1.7rem, 3vw, 2.3rem);
   font-weight: 800;
-  color: #1a3a28;
+  color: #3a1010;
   margin-bottom: 0.6rem;
 }
 

@@ -1,5 +1,5 @@
 .hero {
-  background: linear-gradient(135deg, #0d4a23 0%, #1a6b3a 50%, #2d9e5f 100%);
+  background: linear-gradient(135deg, #5C0E0E 0%, #8B1A1A 50%, #B32020 100%);
   color: white;
   padding: 5rem 1.5rem 3rem;
   text-align: center;
@@ -72,7 +72,7 @@
   display: block;
   font-size: 2.2rem;
   font-weight: 800;
-  color: #5fcf89;
+  color: #E88A8A;
 }
 
 .stat-label {
@@ -98,12 +98,12 @@
 }
 
 .btn-primary {
-  background: #1a6b3a;
+  background: #8B1A1A;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background: #145730;
+  background: #6F1111;
   transform: translateY(-2px);
 }
 
@@ -119,22 +119,22 @@
 
 .btn-outline-green {
   background: transparent;
-  color: #1a6b3a;
-  border-color: #1a6b3a;
+  color: #8B1A1A;
+  border-color: #8B1A1A;
 }
 
 .btn-outline-green:hover {
-  background: #1a6b3a;
+  background: #8B1A1A;
   color: white;
 }
 
 .btn-white {
   background: white;
-  color: #1a6b3a;
+  color: #8B1A1A;
 }
 
 .btn-white:hover {
-  background: #e8f5ee;
+  background: #fbe8e8;
 }
 
 .btn-full {
@@ -151,7 +151,7 @@
 
 .section.bg-light {
   max-width: 100%;
-  background: #f5faf7;
+  background: #fdf5f5;
   padding: 4.5rem 1.5rem;
 }
 
@@ -169,7 +169,7 @@
 .section-header h2 {
   font-size: clamp(1.7rem, 3vw, 2.3rem);
   font-weight: 800;
-  color: #1a3a28;
+  color: #3a1010;
   margin-bottom: 0.6rem;
 }
 
@@ -200,7 +200,7 @@
 
 /* Why Section */
 .why-section {
-  background: #f5faf7;
+  background: #fdf5f5;
   max-width: 100%;
   padding: 4.5rem 1.5rem;
 }
@@ -212,7 +212,7 @@
 
 /* Mission Strip */
 .mission-strip {
-  background: linear-gradient(135deg, #1a6b3a, #0d4a23);
+  background: linear-gradient(135deg, #8B1A1A, #5C0E0E);
   color: white;
   text-align: center;
   padding: 4rem 1.5rem;
@@ -251,9 +251,9 @@
 }
 
 .client-chip {
-  background: #e8f5ee;
-  color: #1a6b3a;
-  border: 1px solid #b8dfc8;
+  background: #fbe8e8;
+  color: #8B1A1A;
+  border: 1px solid #e8b8b8;
   padding: 0.6rem 1.4rem;
   border-radius: 25px;
   font-weight: 600;

@@ -16,12 +16,46 @@ const services = [
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', service: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
+
+  // Uses FormSubmit so this static site can send form entries to email without a backend.
+  const contactEndpoint = import.meta.env.VITE_CONTACT_FORM_ENDPOINT || 'https://formsubmit.co/ajax/rcm92@hotmail.com';
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitting(true);
+    setError('');
+
+    try {
+      const response = await fetch(contactEndpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          phone: form.phone || 'N/A',
+          service: form.service || 'Not selected',
+          message: form.message,
+          _subject: `Website enquiry from ${form.name}`,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Unable to send your enquiry right now. Please try again shortly.');
+      }
+
+      setSubmitted(true);
+    } catch (submitError) {
+      setError(submitError.message || 'Something went wrong while sending your enquiry.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -63,13 +97,6 @@ export default function Contact() {
                 </div>
               </div>
               <div className="contact-detail-item">
-                <span className="ci-icon">📠</span>
-                <div>
-                  <strong>Fax</strong>
-                  <p>88-02-8401791</p>
-                </div>
-              </div>
-              <div className="contact-detail-item">
                 <span className="ci-icon">✉️</span>
                 <div>
                   <strong>Email</strong>
@@ -80,7 +107,7 @@ export default function Contact() {
 
             <div className="office-hours">
               <h4>Office Hours</h4>
-              <p>Saturday – Thursday: 9:00 AM – 6:00 PM</p>
+              <p>Saturday – Thursday: 8:00 AM – 5:00 PM</p>
               <p>Friday: Closed</p>
             </div>
           </div>
@@ -130,7 +157,11 @@ export default function Contact() {
                   <textarea id="message" name="message" rows={5} value={form.message} onChange={handleChange} placeholder="Tell us about your cleaning requirements…" required />
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-full">Send Enquiry</button>
+                {error ? <p className="form-error">{error}</p> : null}
+
+                <button type="submit" className="btn btn-primary btn-full" disabled={submitting}>
+                  {submitting ? 'Sending...' : 'Send Enquiry'}
+                </button>
               </form>
             )}
           </div>
