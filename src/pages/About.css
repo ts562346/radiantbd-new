@@ -54,6 +54,20 @@
   display: block;
 }
 
+/* Organizational Chart Image */
+.org-chart-image {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.org-chart-image img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
 /* People section */
 .people-content {
   max-width: 850px;

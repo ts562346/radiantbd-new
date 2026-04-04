@@ -5,50 +5,73 @@ import './Services.css';
 
 const mainServices = [
   {
-    icon: '🏢',
-    title: 'Office Cleaning',
+    icon: <i className="fi fi-tr-building"></i>,
+    title: 'High Raise Commercial Building Cleaning & Maintenance',
     description: 'Comprehensive daily, weekly, or customised office cleaning including vacuuming, mopping, dusting, window cleaning, toilet sanitation, and waste disposal. Our teams work around your schedule to minimise disruption.',
   },
   {
-    icon: '🏠',
-    title: 'Residential Cleaning',
-    description: 'Top-to-bottom home cleaning covering all rooms, bathrooms, kitchens, and common areas. Includes carpet vacuuming, shampooing, upholstery cleaning, and blind/curtain cleaning for a truly fresh home.',
+    icon: <i class="fi fi-tr-desk"></i>,
+    title: 'Office Cleaning',
+    description: 'Top-to-bottom office cleaning covering all rooms, bathrooms, kitchens, and common areas. Includes carpet vacuuming, shampooing, upholstery cleaning, and blind/curtain cleaning for a truly fresh environment.',
   },
   {
-    icon: '🪟',
-    title: 'Curtain Wall Maintenance',
-    description: 'High-rise and commercial facade cleaning using modern rope-access and scaffolding techniques. Internal and external glass, windows, and structural facades cleaned to the highest standards.',
+    icon: <i className="fi fi-tr-user-gear"></i>,
+    title: 'Janitorial & Support Staff Service',
+    description: 'Provision of trained, uniformed, background-checked janitorial and support staff on a full-time or part-time basis. All staff come with detailed CVs and are managed by our supervisors.',
   },
+  { 
+    icon: <i className="fi fi-tr-users-alt"></i>, 
+    title: 'Facility Management Services', 
+    description: 'Facility Management Services for residential and commercial buildings. It includes Receptionist, Electrician, Lift operator, CCTV Operator, security, etc.' },
   {
-    icon: '🔨',
+    icon: <i className="fi fi-tr-tools"></i>,
     title: 'After-Construction Cleaning',
     description: 'Specialist post-construction clean-up removing cement dust, paint splashes, tile grout residue, and construction debris. We leave your newly built or renovated space ready for occupancy.',
   },
   {
-    icon: '🧹',
-    title: 'Janitorial & Support Staff Supply',
-    description: 'Provision of trained, uniformed, background-checked janitorial and support staff on a full-time or part-time basis. All staff come with detailed CVs and are managed by our supervisors.',
-  },
-  {
-    icon: '🐛',
+    icon:<i className="fi fi-tr-bug"></i>,
     title: 'Pest Control',
     description: 'Professional pest management including insecticidal fogging of closed and open areas, rodent control, cockroach treatment, mosquito control, and other targeted pest elimination programs.',
   },
 ];
 
 const additionalServices = [
-  { icon: '🚗', title: 'Car Park Cleaning', description: 'Regular cleaning and maintenance of outdoor car-parking areas and driveways.' },
-  { icon: '🛗', title: 'Lift Cabin Cleaning', description: 'Interior lift cabin cleaning including glass, fixtures, and cabin surfaces.' },
-  { icon: '🚽', title: 'Toilet Sanitation', description: 'Deep cleaning, sanitisation, and ongoing maintenance of washrooms and restroom facilities.' },
-  { icon: '🪞', title: 'Glass & Window Cleaning', description: 'Internal and external glass cleaning including internal drain and facade glass.' },
-  { icon: '🛋️', title: 'Carpet & Upholstery', description: 'Carpet vacuuming, shampooing, and upholstery cleaning to restore furnishings.' },
-  { icon: '🏗️', title: 'Drain Cleaning', description: 'External drain clearing and maintenance to prevent blockages and maintain hygiene.' },
+  { 
+    icon: <i className="fi fi-tr-car-side"></i>, 
+    title: 'Car Park Cleaning', 
+    description: 'Regular cleaning and maintenance of outdoor car-parking areas and driveways.' 
+  },
+  { 
+    icon: <i className="fi fi-tr-escalator"></i>, 
+    title: 'Stair Cleaning', 
+    description: 'Thorough cleaning of staircases, including sweeping, mopping, handrail sanitization, and removal of dust and debris to ensure a safe and spotless passage.' 
+  },
+  { 
+    icon: <i className="fi fi-tr-toilet"></i>, 
+    title: 'Washroom Sanitation', 
+    description: 'Deep cleaning, sanitisation, and ongoing maintenance of washrooms and restroom facilities.' 
+  },
+  { 
+    icon: <i className="fi fi-tr-layer-minus"></i>, 
+    title: 'Floor Cleaning', 
+    description: 'Hard floor scrubbing and polishing to maintain a pristine appearance.' 
+  },
+  { 
+    icon: <i className="fi fi-tr-couch"></i>, 
+    title: 'Carpet & Upholstery Cleaning', 
+    description: 'Carpet vacuuming, shampooing, and upholstery cleaning to restore furnishings.' 
+  },
+  {
+    icon: <i className="fi fi-tr-window-frame"></i>,
+    title: 'Curtain Wall Maintenance',
+    description: 'High-rise and commercial facade cleaning using modern rope-access and scaffolding techniques. Internal and external glass, windows, and structural facades cleaned to the highest standards.',
+  },
 ];
 
 const equipment = [
-  'Industrial Floor Scrubbers', 'Carpet Shampooing Machines', 'High-Pressure Washers',
+  'Auto Scrubbers', 'Carpet Shampooing Machines', 'High-Pressure Washers',
   'Industrial Vacuum Cleaners', 'Telescopic Window Squeegees', 'Insecticide Fogging Machines',
-  'Rope-Access Safety Equipment', 'Steam Cleaning Machines',
+  'Rope-Access Safety Equipment', 'Steam Cleaning Machines', 'Professional Dryer Machine'
 ];
 
 export default function Services() {

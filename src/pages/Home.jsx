@@ -34,12 +34,12 @@ export default function Home() {
           <span className="hero-badge">Established 1993 · 600+ Trained Staff</span>
           <h1>Bangladesh's Trusted<br />Cleaning &amp; Pest Control Experts</h1>
           <p>
-            RADIANT delivers ultra-modern, scientific cleaning and pest control solutions
-            for residences, offices, and large facilities — all at competitive prices.
+            RADIANT delivers ultra-modern, scientific cleaning and pest control and support staff services
+            for commercial buildings, offices, and large facilities — all at competitive prices.
           </p>
           <div className="hero-actions">
             <Link to="/services" className="btn btn-primary">Explore Services</Link>
-            <Link to="/contact" className="btn btn-outline">Get a Free Quote</Link>
+            <Link to="/contact" className="btn btn-primary">Get a Free Quote</Link>
           </div>
         </div>
         <div className="hero-stats">

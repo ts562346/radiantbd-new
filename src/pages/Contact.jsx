@@ -93,7 +93,7 @@ export default function Contact() {
                 <span className="ci-icon">📞</span>
                 <div>
                   <strong>Phone</strong>
-                  <p>9885167 | 9872027<br />01730-05001</p>
+                  <p>9885167 | 9872027<br />017300-05001<br />017115-20291</p>
                 </div>
               </div>
               <div className="contact-detail-item">

@@ -40,8 +40,8 @@ export default function Footer() {
         <div className="footer-contact">
           <h4>Contact Us</h4>
           <p>📍 H-92, 1st Floor, New Airport Road<br />Banani, Dhaka-1213</p>
-          <p>📞 9885167 | 9872027<br />01730-05001</p>
-          <p>📠 Fax: 88-02-8401791</p>
+          <p>📞 9885167 | 9872027<br />017300-05001<br />017115-20291</p>
+          {/* <p>📠 Fax: 88-02-8401791</p> */}
           <p>✉️ rcm92@hotmail.com</p>
         </div>
       </div>

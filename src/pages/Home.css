@@ -1,5 +1,8 @@
 .hero {
-  background: linear-gradient(135deg, #5C0E0E 0%, #8B1A1A 50%, #B32020 100%);
+  background: url('../assets/herobg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   padding: 5rem 1.5rem 3rem;
   text-align: center;
@@ -11,25 +14,28 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
 
 .hero-content {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
+  z-index: 1;
 }
 
 .hero-badge {
   display: inline-block;
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.3);
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255,255,255,0.5);
   border-radius: 20px;
   padding: 0.35rem 1rem;
   font-size: 0.8rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
@@ -37,14 +43,16 @@
   font-weight: 800;
   line-height: 1.15;
   margin-bottom: 1.25rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
   font-size: 1.15rem;
-  opacity: 0.9;
+  opacity: 1;
   max-width: 620px;
   margin: 0 auto 2rem;
   line-height: 1.7;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero-actions {
@@ -61,7 +69,8 @@
   gap: 3rem;
   margin-top: 3rem;
   padding-top: 2.5rem;
-  border-top: 1px solid rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(255,255,255,0.4);
+  z-index: 1;
 }
 
 .stat {
@@ -72,16 +81,18 @@
   display: block;
   font-size: 2.2rem;
   font-weight: 800;
-  color: #E88A8A;
+  color: #FFD700;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .stat-label {
   display: block;
   font-size: 0.8rem;
-  opacity: 0.8;
+  opacity: 1;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 0.25rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Buttons */

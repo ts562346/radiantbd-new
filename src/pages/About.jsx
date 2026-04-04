@@ -1,6 +1,7 @@
 import PageHeader from '../components/PageHeader';
 import SEO from '../components/SEO';
 import FeatureCard from '../components/FeatureCard';
+import orgChartImage from '../assets/Organization Chart (4).png';
 import './About.css';
 
 const values = [
@@ -104,7 +105,7 @@ export default function About() {
       </section>
 
       {/* Management & Office Staff */}
-      <section className="section bg-light">
+      <section className="section">
         <div className="section-header">
           <h2>Management &amp; Office Staff</h2>
           <p>The experienced team leading RADIANT's operations</p>
@@ -122,6 +123,17 @@ export default function About() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Organizational Structure */}
+      <section className="section bg-light">
+        <div className="section-header">
+          <h2>Organizational Structure</h2>
+          <p>Our leadership and operational team structure</p>
+        </div>
+        <div className="org-chart-image">
+          <img src={orgChartImage} alt="RADIANT Organizational Chart" />
         </div>
       </section>
 

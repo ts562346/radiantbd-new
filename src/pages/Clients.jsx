@@ -15,6 +15,17 @@ const clientCategories = [
     ],
   },
   {
+    category: 'Educational Institutions',
+    icon: '🎓',
+    clients: [
+      { name: 'United International University (UIU)', detail: 'United City, R/A, Dhaka' },
+      { name: 'London School', detail: 'Dhanmondi R/A, Dhaka' },
+      { name: 'University of Liberal Arts Bangladesh', detail: 'Campus-2, Dhanmondi, Dhaka' },
+      { name: 'Eastern University', detail: 'Dhanmondi R/A, Dhaka' },
+      { name: 'The Grenada Academy', detail: 'Nayakanda, Manikgonj' },
+    ],
+  },
+  {
     category: 'Financial Institutions',
     icon: '🏦',
     clients: [
@@ -27,8 +38,6 @@ const clientCategories = [
     icon: '🏢',
     clients: [
       { name: 'Universal Business Machines', detail: '2nd Floor, Safura Tower, Banani' },
-      { name: 'Lanka Bangla Finance', detail: '11th Floor, Safura Tower' },
-      { name: 'Premier Bank Ltd.', detail: '4th Floor, Iqbal Center, Banani' },
       { name: 'Bengal Airlifts Ltd.', detail: '4th Floor, Landmark Building, Gulshan-2' },
       { name: 'Everett BD. Ltd.', detail: 'Shuvastu Tower, Panthapath' },
       { name: 'Shanta Properties Ltd.', detail: 'Safura Tower, Banani' },
@@ -36,8 +45,14 @@ const clientCategories = [
       { name: 'Green Delta Securities Ltd.', detail: 'Motijheel C/A, Dhaka' },
       { name: 'Bergen Engines Ltd.', detail: 'Banani, Dhaka' },
       { name: 'Nest Assets Ltd.', detail: 'Gulshan-1, Dhaka' },
-      { name: 'Reptiles Farm Ltd.', detail: '56 Panthapath, Dhaka-1000' },
       { name: 'SBT Japan', detail: 'Banani, Dhaka' },
+      { name: 'BJ Textile', detail: 'Gulshan, Dhaka' },
+      { name: 'Zemcon Group', detail: 'Dhanmondi, Dhaka' },
+      { name: 'Hossaf Power', detail: 'Mohakhali, Dhaka' },
+      { name: 'MRB Bangladesh', detail: 'Dhanmondi, Dhaka' },
+      { name: 'Norp Knit', detail: 'Uttara, Dhaka' },
+      { name: 'PVH Far East', detail: 'Gulshan, Dhaka' },
+
     ],
   },
   {
@@ -45,24 +60,9 @@ const clientCategories = [
     icon: '🛍️',
     clients: [
       { name: 'Meena Bazar', detail: 'Dhanmondi R/A, Dhaka' },
-      { name: 'Plaza AR', detail: 'Dhanmondi, Dhaka' },
       { name: 'Molla Shopping Complex', detail: 'Rampura, Dhaka' },
       { name: 'Aarong', detail: 'Jamuna Future Park' },
-      { name: 'Aarong', detail: 'Mirpur-10, Dhaka' },
-      { name: 'Aarong', detail: 'Mirpur-12, Dhaka' },
       { name: 'Aarong', detail: 'Banani, Dhaka' },
-      { name: 'Aarong', detail: 'Chittagong' },
-    ],
-  },
-  {
-    category: 'Educational Institutions',
-    icon: '🎓',
-    clients: [
-      { name: 'DPS-STS School', detail: 'Uttara, Dhaka' },
-      { name: 'London School', detail: 'Dhanmondi R/A, Dhaka' },
-      { name: 'University of Liberal Arts Bangladesh', detail: 'Campus-2, Dhanmondi, Dhaka' },
-      { name: 'Eastern University', detail: 'Dhanmondi R/A, Dhaka' },
-      { name: 'Monash University', detail: 'Gulshan, Dhaka' },
     ],
   },
   {
@@ -83,20 +83,13 @@ const clientCategories = [
     ],
   },
   {
-    category: 'Export & Garments Industries',
-    icon: '🏭',
-    clients: [
-      { name: 'Denitex Garments and Washing', detail: 'Bank Town, Savar' },
-    ],
-  },
-  {
     category: 'Clients Outside Dhaka',
     icon: '🗺️',
     clients: [
       { name: 'Premier Bank Ltd. — Agrabad Branch', detail: 'Chittagong' },
-      { name: 'Premier Bank Ltd. — EPZ Branch', detail: 'Chittagong' },
-      { name: 'Premier Bank Ltd. — Nazirhat Branch', detail: 'Chittagong' },
       { name: 'Premier Bank Ltd. — Mymensingh Branch', detail: 'Mymensingh' },
+      { name: 'Premier Bank Ltd. — Rajshahi Branch', detail: 'Rajshahi' },
+
     ],
   },
 ];
