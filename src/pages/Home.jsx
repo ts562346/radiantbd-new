@@ -32,10 +32,9 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <span className="hero-badge">Established 1993 · 600+ Trained Staff</span>
-          <h1>Bangladesh's Trusted<br />Cleaning &amp; Pest Control Experts</h1>
+          <h1>Your Trusted Cleaning &amp; Property Management Experts in Bangladesh</h1>
           <p>
-            RADIANT delivers ultra-modern, scientific cleaning and pest control and support staff services
-            for commercial buildings, offices, and large facilities — all at competitive prices.
+            Radiant delivers an ultra-modern, scientifically driven approach to professional cleaning, property management, and janitorial support staff services for corporate offices, multi-storied commercial buildings, and large-scale facilities—all at competitive prices.
           </p>
           <div className="hero-actions">
             <Link to="/services" className="btn btn-primary">Explore Services</Link>
